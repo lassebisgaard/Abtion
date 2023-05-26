@@ -96,13 +96,7 @@ color: #026817;
     padding: 10px;
     background: white;
   }
-  .footer1,
-.footer2,
-.footer3,
-.footer4 {
-  display: inline-block;
-  text-align: left;
-}
+
 .footer1,
 .footer2,
 .footer3,
@@ -127,10 +121,5 @@ color: #026817;
   font-size: 25px;
   font-family: 'Segoe UI', sans-serif;
 }
-.footer1 ul,
-.footer2 ul,
-.footer3 ul,
-.footer4 ul {
-  list-style: none;
-  padding: 0;
-}
+
+
