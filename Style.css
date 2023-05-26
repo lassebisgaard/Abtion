@@ -88,48 +88,37 @@ a{
 a:hover {
 color: #026817;
   }
-.footer {
+
+
+  footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 167px;
-    padding: 10px;
     background: white;
   }
-
-  .footer3,
-  .footer4 {
-    margin-left: auto;
+  
+  .footerbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
   }
-.footer1,
-.footer2,
-.footer3,
-.footer4 {
-  display: inline-block;
-  text-align: left;
-  padding-left: 130px;
-}
 
-.footer1 ul li a,
-.footer2 ul li a,
-.footer3 ul li a,
-.footer4 ul li a {
-  color: black;
-  font-size: 15px;
-}
+  .footerbox p {
+    margin: 6px;
+  }
 
-.footer1 ul li h1,
-.footer2 ul li h1,
-.footer3 ul li h1,
-.footer4 ul li h1 {
-  font-size: 25px;
-  font-family: 'Segoe UI', sans-serif;
-}
-.footer1 ul,
-.footer2 ul,
-.footer3 ul,
-.footer4 ul {
-  list-style: none;
-  padding: 0;
-}
-
+  .footerbox.tekst {
+    padding-top: 60px;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-container p {
+    margin: 0 0 0 0;
+  }
