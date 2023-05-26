@@ -96,13 +96,11 @@ color: #026817;
     padding: 10px;
     background: white;
   }
-  .footer1,
-.footer2,
-.footer3,
-.footer4 {
-  display: inline-block;
-  text-align: left;
-}
+
+  .footer3,
+  .footer4 {
+    margin-left: auto;
+  }
 .footer1,
 .footer2,
 .footer3,
@@ -134,3 +132,4 @@ color: #026817;
   list-style: none;
   padding: 0;
 }
+
