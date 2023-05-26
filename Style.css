@@ -21,14 +21,14 @@ header {
     font-size: 80px;
     font-family: 'Georgia';
     color: #026817;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 .box {
     width: 100%;
     background-color: #A3BF9A;
     display: flex;
-    flex-direction: column;
+    flex-direction: center;
     align-items: center;
     border-top: 1px solid #026817;
     height: 53px;
@@ -44,6 +44,13 @@ header {
   font-size: 25px;
 }
 .nav-menu li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul.nav-menu{
+  margin: 0px;
+  padding: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
