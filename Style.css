@@ -89,80 +89,48 @@ a:hover {
 color: #026817;
   }
 .footer {
-  height: 167px;
-  padding:none;
-  position:relative;
-  padding: 10px 10px 0px 10px;
-  bottom: 0;
-  width: 100%;
-  background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 167px;
+    padding: 10px;
+    background: white;
+  }
+  .footer1,
+.footer2,
+.footer3,
+.footer4 {
+  display: inline-block;
+  text-align: left;
 }
-  .footer1 ul li a{
-    color: black; 
-    font-size: 15px; 
-  }
-  .footer1 ul li{
-    display: flex;
-    justify-content: flex-start;
-    text-decoration: none;
-  }
+.footer1,
+.footer2,
+.footer3,
+.footer4 {
+  display: inline-block;
+  text-align: left;
+  padding-left: 130px;
+}
 
-  .footer1 ul li h1{
-    font-size: 25px;
-    font-family: 'Segoe UI',sans-serif;
-  }
-  .footer1 ul {
-    padding: 0px 0px 0px 130px;
-  }
-  .footer2 ul li a{
-    color: black; 
-    font-size: 15px; 
-  }
-  .footer2 ul li{
-    display: flex;
-    justify-content: flex-start;
-    text-decoration: none;
-  }
+.footer1 ul li a,
+.footer2 ul li a,
+.footer3 ul li a,
+.footer4 ul li a {
+  color: black;
+  font-size: 15px;
+}
 
-  .footer2 ul li h1{
-    font-size: 25px;
-    font-family: 'Segoe UI',sans-serif;
-  }
-  .footer2 ul {
-    padding: 0px 0px 0px 130px;
-  }
-  .footer3 ul li a{
-    color: black; 
-    font-size: 15px; 
-  }
-  .footer3 ul li{
-    display: flex;
-    justify-content: flex-start;
-    text-decoration: none;
-  }
-
-  .footer3 ul li h1{
-    font-size: 25px;
-    font-family: 'Segoe UI',sans-serif;
-  }
-  .footer3 ul {
-    padding: 0px 0px 0px 130px;
-  }
-  .footer4 ul li a{
-    color: black; 
-    font-size: 15px; 
-  }
-  .footer4 ul li{
-    display: flex;
-    justify-content: flex-start;
-    text-decoration: none;
-  }
-
-  .footer4 ul li h1{
-    font-size: 25px;
-    font-family: 'Segoe UI',sans-serif;
-  }
-  .footer4 ul {
-    padding: 0px 0px 0px 130px;
-  }
-
+.footer1 ul li h1,
+.footer2 ul li h1,
+.footer3 ul li h1,
+.footer4 ul li h1 {
+  font-size: 25px;
+  font-family: 'Segoe UI', sans-serif;
+}
+.footer1 ul,
+.footer2 ul,
+.footer3 ul,
+.footer4 ul {
+  list-style: none;
+  padding: 0;
+}
