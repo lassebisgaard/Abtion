@@ -1,11 +1,11 @@
 header {
-    height: 85px;
-    background-color: #19444D;
+    height: 167px;
+    background-color: #A3BF9A;
     display: flex;
+    flex-direction: column; /* Ændring: Brug en kolonne-layout */
     align-items: center;
-    justify-content:center;
+    justify-content: flex-end; /* Ændring: Juster til bunden af headeren */
     position: relative;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     z-index: 9999;
   }
 
@@ -14,7 +14,23 @@ header {
     padding: 0;
     font-family: 'Segoe UI', sans-serif;
     display: flex;
-    min-height: 100vh;
     flex-direction: column;
     background-color: #D6E2E1;
   }
+
+  h1 {
+    font-size: 80px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #026817;
+}
+.box {
+    width: 100%;
+    background-color: white;
+    background-color: #A3BF9A;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #026817;
+    height: 53px;
+  }
+
+
