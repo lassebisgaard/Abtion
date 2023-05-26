@@ -106,7 +106,6 @@ color: #026817;
     background-color: white;
   }
 
-<<<<<<< HEAD
   .footerbox p {
     margin: 6px;
   }
@@ -123,32 +122,3 @@ color: #026817;
   .flex-container p {
     margin: 0 0 0 0;
   }
-=======
-.footer1 ul li a,
-.footer2 ul li a,
-.footer3 ul li a,
-.footer4 ul li a {
-  color: black;
-  font-size: 15px;
-}
-
-.footer1 ul li h1,
-.footer2 ul li h1,
-.footer3 ul li h1,
-.footer4 ul li h1 {
-  font-size: 25px;
-  font-family: 'Segoe UI', sans-serif;
-}
-.footer1 ul,
-.footer2 ul,
-.footer3 ul,
-.footer4 ul {
-  list-style: none;
-  padding: 0;
-}
-.blomst{
-  width:113px; 
-  height:113px; 
-  vertical-align:middle;
-}
->>>>>>> 40c2bda094380f5d66fb96df0df5b41390a4a9f5
