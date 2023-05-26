@@ -37,13 +37,14 @@ header {
   list-style: none;
   text-decoration: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 60px;
   color: white;
   font-size: 25px;
 }
-.li{
+.nav-menu li{
+  display: flex;
   justify-content: center;
-  flex-direction: center;
+  align-items: center;
 }
