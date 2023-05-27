@@ -1,0 +1,31 @@
+.tableofcontents{
+    border-collapse: collapse;
+    margin: 25px 0px;
+    font-size: 15px;
+}
+.tableofcontents tr th{
+    color: #000000;
+    text-align: left;
+    font-weight: bold;
+}
+.tableofcontents th,
+.tableofcontents td{
+    padding: 15px 120px;
+}
+.tableofcontents td{
+    color: #000000;
+    text-align: left;
+}
+.tableofcontents .kolonne{
+    padding: 15px 20px;
+}
+.tableofcontents tr td:first-child {
+    padding: 15px 20px;
+}
+.tableofcontents tbody tr:nth-of-type(odd){
+    background-color: #A3BF9A;
+}
+.tableofcontents tbody tr th,
+.tableofcontents tbody tr td{
+    border: 1px solid #707070;
+}
