@@ -1,3 +1,5 @@
+
+
 header {
   height: 167px;
   background-color: #A3BF9A;
@@ -5,7 +7,7 @@ header {
   flex-direction: column; /* Ændring: Brug en kolonne-layout */
   align-items: center;
   position: relative;
-  z-index: 9999;
+  z-index: 2; /* Sæt en højere z-index end billederne */
 }
 .blomst{
   width: 113px;
@@ -20,6 +22,8 @@ body {
   flex-direction: column;
   background-color: #FFFFFF;
   overflow-x: hidden;
+  position: relative; /* Tilføj position: relative; */
+  z-index: 1; /* Tilføj z-index: 1; */
 }
 
 h1 {
@@ -75,14 +79,7 @@ ul.nav-menu {
   align-items: center;
 }
 
-.background-image {
-height: 100%;
-width: 100%;
-opacity: 32%;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-  }
+
 
 a{
   color: white;
@@ -94,23 +91,23 @@ color: #026817;
   }
 
 
-footer {
-  height: 167px;
-  background: white;
-}
-
-
+  footer {
+    height: 167px;
+    background: white;
+    position: relative;
+    z-index: 2; /* Sæt en højere z-index end billederne */
+  }
   
-.grid-container {
+.footer-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 10px;
-  background-color: #D6E2E1;
+  background-color: white;
   align-items: flex-start;
   align-content: flex-start;
 }
 
-.grid-container > div {
+.footer-container > div {
   display: inline-block;
   flex-direction: column;
   justify-content: flex-end;
