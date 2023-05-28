@@ -1,0 +1,95 @@
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+
+  
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+input[type="text"]::after,
+input[type="password"]::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #4CAF50;
+  transition: all 0.2s;
+}
+
+input[type="text"]:focus::after,
+input[type="password"]:focus::after {
+  width: 100%;
+}
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+    background-color: #D6E2E1;
+    position: relative;
+    background-color: transparent; /* Gennemsigtig baggrund */
+    padding: 20px 0px; /* Juster padding efter behov */
+    }
+
+  
+.grid-container > div {
+    text-align: left;
+    font-size: 30px;
+    position: relative;
+}
+
+
+.box1 {
+    grid-row: 1;
+    grid-column: 1 / 5;
+    padding-left: 244px;
+}
+
+    
+.box2 {
+    grid-row: 2;
+    grid-column: 1 / 5;
+}
+.box3 {
+    grid-row: 3;
+    grid-column: 2/2;
+
+}
+.box4 {
+    grid-row: 3;
+    grid-column: 3/3;
+}
+
+h2 {
+    font-size: 45px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-size: 30px;
+    font-family: 'Segoe UI', sans-serif;
+}
