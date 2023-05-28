@@ -2,6 +2,9 @@
     border-collapse: collapse;
     margin: 25px 0px;
     font-size: 15px;
+    grid-row: 2;
+    grid-column: 2/4;
+
 }
 .tableofcontents tr th{
     color: #000000;
@@ -30,4 +33,20 @@
 }
 .tableofcontents .difference{
     background-color: #ffffff;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+    background-color: #D6E2E1;
+    position: relative;
+    background-color: transparent; /* Gennemsigtig baggrund */
+    padding: 20px 0px; /* Juster padding efter behov */
+    }
+
+  
+.grid-container > div {
+    text-align: left;
+    font-size: 30px;
+    position: relative;
 }
