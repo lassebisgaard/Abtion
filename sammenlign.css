@@ -12,10 +12,6 @@
 .tableofcontents td{
     padding: 15px 120px;
 }
-.tableofcontents td{
-    color: #000000;
-    text-align: left;
-}
 .tableofcontents .kolonne{
     padding: 15px 20px;
 }
@@ -28,4 +24,10 @@
 .tableofcontents tbody tr th,
 .tableofcontents tbody tr td{
     border: 1px solid #707070;
+}
+.tableofcontents tr td:last-child{
+    background-color: #ffffff;
+}
+.tableofcontents .difference{
+    background-color: #ffffff;
 }
