@@ -1,0 +1,49 @@
+.h2  {
+display: grid;
+place-items: center;
+font-size: 45px;
+font-weight: bold;
+padding-top: 25px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+    background-color: white;
+    position: relative;
+    padding: 20px 0px; /* Juster padding efter behov */
+    }
+
+
+.grid-container > div {
+    font-size: 30px;
+    position: relative;
+}
+
+
+.box1 {
+    grid-row: 1;
+    grid-column: 1 / 5;
+    text-align: center;
+}
+
+
+.kort {
+  float: left;
+  width: 1050px;
+  height: 830px;
+  margin-left: 25px;
+  }
+
+  .indhold-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .ladestandertekst {
+  flex: 1;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
