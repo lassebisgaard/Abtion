@@ -46,7 +46,17 @@
 
   
 .grid-container > div {
-    text-align: left;
+    text-align: center;
     font-size: 30px;
     position: relative;
+}
+.box1 {
+    grid-row: 1;
+    grid-column: 1 / 5;
+}
+.soegefunktion {
+    width: 425px; 
+    height: 69px; 
+    border-radius: 25px; 
+    padding: 5px;
 }
