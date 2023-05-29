@@ -93,7 +93,14 @@ button {
 
 .box2 h2 {
   margin-top: 30px;
+  font-size: 30px;
+  
+}
+.box2 p {
+  margin-top: 30px;
   font-size: 25px;
+  font-weight: normal;
+  margin-top: 0;
   
 }
 
@@ -102,6 +109,12 @@ button {
   width: 405px;
 }
 
+h3 {
+  font-size: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
 
 h2 {
     font-size: 45px;

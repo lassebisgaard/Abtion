@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="ladestandere.css">
+    <script defer src="ladestandere.js"></script>
     <title>Om Greenwheels</title>
 </head>
 <body>
@@ -21,39 +22,40 @@
         </div>
     </header>
 
-<main>
-
-<div class="grid-container">
-  <div class="box1">
-    <h2>Kort over ladestandere</h2>
-  </div>
-  <div class="box2">
-      <img src="billeder\KortLS.png" class="kort" alt="kortladestandere"></h1>
-  </div>
-
-<div class="box3">
-      <div class ="ladestandertekst">
-      <input type="tekst" placeholder="Søg efter ladestandere">
-    </div>
-    <h3> Filtre efter ladehastighed <h3>
-      <input type="checkbox" name="normallader" value="lader1">
-      <h2> Normal lader <h2>
-        <p> 0 - 24 kW <p>
-        <p> Perfekt til den som skal lade natten over </p>
-<br><br>
-  <input type="checkbox" name="hurtiglader" value="lader2">
-      <h2> Hurtig lader <h2>
-        <p> 24 - 99 kW <p>
-        <p> Oplagt til dig som er ude at handle, eller hurtigt skal videre </p>
-<br> <br>
-  <input type="checkbox" name="superlader" value="lader3">
-      <h2> Super lader <h2>
-        <p> 100+ kW <p>
-        <p> Superhurtig opladning til dig der er på faten </p>
-    </div>
-</div>
-
-</main>
+    <main>
+        <div class="grid-container">
+            <div class="box1">
+                <h2>Kort over ladestandere</h2>
+            </div>
+            <div class="box2">
+                <img src="billeder/KortLS.png" class="kort" alt="kortladestandere">
+            </div>
+            <div class="box3">
+                <div class="ladestandertekst">
+                    <input type="text" placeholder="Søg efter ladestandere">
+                </div>
+                <h3>Filtre efter ladehastighed</h3>
+                <div>
+                    <input type="checkbox" name="normallader" value="lader1">
+                    <h2>Normal lader</h2>
+                    <p>0 - 24 kW</p>
+                    <p>Perfekt til den som skal lade natten over</p>
+                </div>
+                <div>
+                    <input type="checkbox" name="hurtiglader" value="lader2">
+                    <h2>Hurtig lader</h2>
+                    <p>24 - 99 kW</p>
+                    <p>Oplagt til dig som er ude at handle, eller hurtigt skal videre</p>
+                </div>
+                <div>
+                    <input type="checkbox" name="superlader" value="lader3">
+                    <h2>Super lader</h2>
+                    <p>100+ kW</p>
+                    <p>Superhurtig opladning til dig der er på farten</p>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <footer>
         <div class="footer-container">
