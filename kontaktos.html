@@ -28,14 +28,21 @@
           <h2>Kontakt GreenWheels</h2>
           <p>Send os en email med din henvendelse eller dit spørgsmål, og vi vil svare tilbage indenfor 1-3 hverdage.</p>
         </div>
-        <div class="container">
-            <h2>Login</h2>
-            <form id="loginForm">
-              <input type="text" placeholder="Brugernavn" id="username">
-              <input type="password" placeholder="Adgangskode" id="password">
-              <button type="submit">Log ind</button>
+        <div class="box2">
+            <form id="emailForm">
+              <div class="input-container">
+                <input type="fornavn" placeholder="fornavn" id="fornavn">
+                <input type="efternavn" placeholder="efternavn" id="efternavn">
+                <input type="email" placeholder="E-mail" id="email">
+              </div>
+              <p>Besked</p>
+              <textarea id="text"></textarea>
+              <div class="button-container">
+                <button type="submit">Send</button>
+              </div>
             </form>
-          </div>
+            <p id="errorText" class="error"></p>
+          </div>      
     </div>
 </main>
 
