@@ -7,6 +7,9 @@ input[type="fornavn"] {
   border: none;
   border-bottom: 1px solid #ccc;
   outline: none;
+  font-size: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: normal;
 }
 
 input[type="text"]::after,
@@ -40,6 +43,7 @@ button {
   display: flex;
   justify-content: flex-end;
   margin-top: 10px;
+  margin-right: 100px;
 }
 
 #text {
@@ -69,7 +73,7 @@ button {
 .box1 {
     grid-row: 1;
     grid-column: 1 / 5;
-    padding-left: 244px;
+    margin-left: 244px;
 }
 
     
@@ -83,14 +87,21 @@ button {
   margin-bottom: 0px;
 }
 .box3 {
-    grid-row: 3;
-    grid-column: 2/2;
+    grid-row: 2;
+    grid-column: 3/5;
+    padding-left: 187px;
+    padding-top: 40px;
+}
 
+.box3 h2 {
+  margin-top: 0;
 }
-.box4 {
-    grid-row: 3;
-    grid-column: 3/3;
+
+#expert {
+  height: 430px;
+  width: 500px;
 }
+
 
 h2 {
     font-size: 45px;
