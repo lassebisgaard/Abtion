@@ -58,5 +58,6 @@
     width: 425px; 
     height: 69px; 
     border-radius: 25px; 
+    border: none; 
     padding: 5px;
 }
