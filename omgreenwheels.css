@@ -45,9 +45,7 @@ img.background-image {
 
 .box1 {
     grid-row: 1;
-    grid-column: 1 / 5;
-    padding-left: 193px;
-    padding-top: 20px;
+    grid-column: 1/ 5;
 }
 
     
@@ -99,4 +97,5 @@ img.background-image {
 .box2 h2 {
     font-size: 45;
     font-weight: bold;
+    text-align: center;
 }
