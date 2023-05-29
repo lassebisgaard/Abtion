@@ -45,15 +45,13 @@ padding-top: 25px;
 
   .ladestandertekst {
   flex: 1;
-  background-color: #f2f2f2;
   padding: 20px;
 }
-=======
-footer 
+
+
+footer
     background: #FFFFFF;
     position: fixed;
     bottom: 0;
     width: 100%;
   /*færdiggør denne kode, hvis det skal bruges*/
-
->>>>>>> 48e6c1b57d346ec17424ab188f1434aee966a26d
