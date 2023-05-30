@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="kontakt.css">
-    <script src="kontak.js"></script>
+    <script defer src="kontakt.js"></script>
     <title>Om Greenwheels</title>
 </head>
 <body>
@@ -36,12 +36,16 @@
               </div>
               <p>Besked</p>
               <textarea id="text"></textarea>
+              <p id="errorText" class="error"></p>
+              <p id="messageText"></p>
               <div class="button-container">
                 <button type="submit">Send</button>
+                
+                
               </div>
             </form>
         </div>
-            <p id="errorText" class="error"></p>
+            
         <div class="box2">
         <img src="billeder/expert.png" id="expert" alt="billede af en expert">
         <h2>Du er også velkommen til at <br>tage kontakt til os i følgende<br> tidsrum:</h2>
