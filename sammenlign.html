@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="sammenlign.css">
-    <script src="sammenlign.js"></script>
     <title>Om Greenwheels</title>
 </head>
 <body>
@@ -22,16 +21,21 @@
             </ul>
         </div>
     </header>
-    
+
+    <div id="carTable"></div>
+    <script src="sammenlign.js"></script>
+
     <main>
+
+
         <div class="grid-container">
             <div class="box1">
                 <h2>Se forskellen - sæt en benzin bil op mod en elbil</h2>
                 <p>Hvor meget kan du spare? </p>
             </div>
             <div class="soegefunktion">
-                <input type="text" class="elbil" placeholder="Find elbil.." id="elbil" oninput="searchCars()">
-                <input type="text" class="bil" placeholder="Find bil.." id="bil" oninput="searchCars()"> 
+                <input type="search" class="elbil" placeholder="Find elbil.." id="elbil" oninput="searchCars()">
+                <input type="search" class="bil" placeholder="Find bil.." id="bil" oninput="searchCars()"> 
             </div>
             <table class="tableofcontents">
                 <tr>
