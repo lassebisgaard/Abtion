@@ -79,19 +79,13 @@ img.background-image {
 .box4 {
     padding-top: 50px;
 }
+.box2 p,
 .box3 p,
 .box4 p {
     font-size: 25px;
     font-family: 'Segoe UI', sans-serif;
 }
 
-.box2 p {
-    font-size: 25px;
-    font-family: Georgia, serif;
-    font-weight: bold;
-    font-style: italic;
-    margin-top: 0px;
-}
 
 .box1 h2,
 .box2 h2 {

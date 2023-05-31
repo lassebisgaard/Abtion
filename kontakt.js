@@ -4,28 +4,51 @@ emailForm.addEventListener("submit", function(event) {
 
   var email = document.getElementById("email").value;
   var errorText = document.getElementById("errorText");
-  var messageText = document.getElementById("messageText");
 
-  // Regex for e-mail validering
+  
   var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
   if (emailRegex.test(email)) {
-    // E-mail er gyldig
+    
+    errorText.innerHTML = 'Din mail er nu blevet afsendt';
+    }
+   else {
+    
+    errorText.innerHTML = 'Ugyldig e-mailadresse.';
+  }
+});
+
+/*
+var emailForm = document.getElementById("emailForm");
+emailForm.addEventListener("submit", function(event) {
+  event.preventDefault();
+
+  var email = document.getElementById("email").value;
+  var errorText = document.getElementById("errorText");
+
+  var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  if (emailRegex.test(email)) {
+    
     errorText.innerHTML = '';
 
-    // Send e-mail og vis besked
     for (var i = 0; i < 3; i++) {
       sendEmail(email, i);
     }
-    messageText.innerHTML = 'E-mailen er blevet sendt.'; // Vis beskedtekst
   } else {
     // E-mail er ugyldig
     errorText.innerHTML = 'Ugyldig e-mailadresse.';
-    messageText.innerHTML = ''; // Nulstil beskedtekst
   }
 });
 
 function sendEmail(email, index) {
-  // Simulerer afsendelse af e-mail
+
   console.log('E-mail ' + (index + 1) + ' sendt til: ' + email);
+
+  var messageContainer = document.createElement("p");
+  messageContainer.innerHTML = 'E-mail ' + (index + 1) + ' er blevet sendt til: ' + email;
+
+  var box1 = document.querySelector(".box1");
+  box1.appendChild(messageContainer);
 }
+*/

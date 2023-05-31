@@ -1,10 +1,9 @@
-input[type="fornavn"] {
+#fornavn {
   margin-top: 50px;
 }
 
-input[type="email"],
-input[type="efternavn"],
-input[type="fornavn"] {
+input[type="text"],
+input[type="email"] {
   width: 534px;
   padding: 10px;
   margin-bottom: 10px;
@@ -17,8 +16,7 @@ input[type="fornavn"] {
 }
 
 input[type="text"]::after,
-input[type="efternavn"]::after,
-input[type="fornavn"]::after {
+input[type="email"]::after {
   content: "";
   display: block;
   border-bottom: 2px solid #4CAF50;
@@ -26,12 +24,13 @@ input[type="fornavn"]::after {
 }
 
 input[type="text"]:focus::after,
-input[type="efternavn"]:focus::after,
-input[type="fornavn"]:focus::after
+input[type="email"]:focus::after
 {
   width: 100%;
 }
-
+#errorText {
+  font-size: 20px;
+}
 button {
   width: 100px;
   height: 30px;
@@ -94,7 +93,7 @@ button {
 .box2 h2 {
   margin-top: 30px;
   font-size: 30px;
-  
+  font-size: 25px;
 }
 .box2 p {
   margin-top: 30px;
@@ -110,9 +109,8 @@ button {
 }
 
 h3 {
-  font-size: 30px;
-  font-family: 'Segoe UI', sans-serif;
-  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Segoe UI Semibold', sans-serif;
   margin-bottom: 0px;
 }
 
