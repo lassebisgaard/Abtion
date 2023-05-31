@@ -41,7 +41,7 @@
     padding: 20px 0px;
     }
 
-  
+
 .grid-container > div {
     text-align: center;
     font-size: 30px;
@@ -93,9 +93,6 @@
 }
 .soegefunktion input.elbil, .soegefunktion input.bil {
     padding-left: 50px;
-    background-image: url("/billeder/soegeknap.png"); 
     background-repeat: no-repeat;
-    background-position: 5% 50%; 
+    background-position: 5% 50%;
 }
-
-
