@@ -113,13 +113,13 @@ input[type="checkbox"] {
 
 /* Medieforespørgsel for endnu mindre skærme */
 @media screen and (max-width: 1280px) {
-  
+
   .ladestandertekst {
     font-size: 30px;
   }
 
   .ladestandertekst::after {
-    width: 300px;
+    width: 400px;
   }
 
   .ladestandertekst input {
