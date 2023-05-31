@@ -94,8 +94,14 @@ img.background-image {
     text-align: center;
 }
 
-.knap-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 45px; /* Tilføj ønsket afstand over knappen */
+.box3 p,
+.box4 p {
+    padding-bottom: 150px;
 }
+
+.knap-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }

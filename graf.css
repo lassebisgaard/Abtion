@@ -44,3 +44,8 @@
 .box2 .foto {
     padding-bottom: 80px;
 }
+
+.box3 {
+    grid-row: 3;
+    grid-column: 1/5;
+}
